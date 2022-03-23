@@ -1,0 +1,48 @@
+.mainMeal{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    cursor: pointer;
+}
+div{
+   margin: auto;
+    padding: 5px;
+    width: 20%;
+}
+img{
+   width: 100%;
+}
+header > h1{
+    color: rgb(160, 94, 13);
+    border: 1px solid sandybrown;
+    width: 20%;
+    
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 120px;
+    font-weight: 500;
+}
+header > input {
+    width: 20%;
+    border: 2px solid rgb(121, 87, 87);
+    outline: none;
+    padding: 10px;
+    margin-left: 40%;
+    border-radius: 10px;
+}
+header > button{
+    border: none;
+    width: 150px;
+    padding: 10px;
+    color: pink;
+    background-color: black;
+    border-radius: 10px;
+}
+.singleMeal {
+    display: block;
+    width: 100%;
+    
+}
+.singleMeal > div > img{
+    width:100%;
+}
